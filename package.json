@@ -1,0 +1,26 @@
+{
+  "name": "kiosko",
+  "version": "1.0.0",
+  "description": "Api rest punto de venta de kiosko",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "serve": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Curso web avanazo 5 ciclo  John samuel",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.2",
+    "google-auth-library": "^7.10.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
